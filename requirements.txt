@@ -1,0 +1,12 @@
+confluent-kafka
+requests
+six
+pandas
+pymongo[srv]==4.1.1
+jsonschema==3.2.0
+dnspython
+python-dotenv ## for loading the environment variables containng the secrets
+ipykernel ##for runing the Jupyter notebooks
+#jsonschema==3.2.0   ##This is the library which we might be requring in case we are getting any error related to jsonschema while publishing the data to Kafka
+#six  ## This is the pip install six just to catter the same jsonschema error in case it occurs.
+-e .
