@@ -1,0 +1,17 @@
+.env/*
+.idea
+venv/
+*.egg-info
+logs/*
+*.log
+*.pyc
+__pycache__
+Credential.md
+env/
+.ipynb_checkpoints
+.vscode
+assignment/
+.env
+schema.json
+test.py
+__pycache__
